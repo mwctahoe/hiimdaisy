@@ -1,0 +1,25 @@
+
+<html>
+<head>
+	<style>
+	body {
+    overflow: hidden;
+	}
+</style>
+	<title>HI I'M DAISY</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+	$(function(){
+  		$('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  		$(window).resize(function(){
+    		$('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  		});
+	});
+</script>
+
+<iframe id ="video" src="//www.youtube.com/embed/2EDQaHf8cT8?rel=0&autoplay=1"
+ frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
